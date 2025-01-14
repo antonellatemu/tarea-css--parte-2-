@@ -1,0 +1,16 @@
+body, html {
+    margin: 0;
+    height: 100%; 
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+  }
+  
+  .image-container img {
+    max-width: 100px; 
+    height: auto;
+  }
